@@ -195,6 +195,9 @@
 "Enable or disable this extension. Takes effect after restarting TuneLab." = "启用或禁用该扩展。重启 TuneLab 后生效。"
 "Enable or disable this capability. Takes effect after restarting TuneLab." = "启用或禁用该能力。重启 TuneLab 后生效。"
 "The whole extension is disabled, so its capabilities cannot be turned on individually." = "整个扩展已被禁用，其中的单个能力无法单独启用。"
+"User Manual" = "用户手册"
+"The user manual is not bundled with this build." = "此版本未随包附带用户手册。"
+"This manual is not available in the current language yet; showing the {0} edition." = "手册暂无当前语言版本，显示的是 {0} 版。"
 
 [Property]
 "Properties" = "属性"
@@ -333,6 +336,7 @@
 "Recent" = "最近使用"
 "Set Instrument" = "设置乐器"
 "About TuneLab" = "关于 TuneLab"
+"User Manual" = "用户手册"
 
 [AgentSideBarContentProvider]
 "Agent" = "Agent"

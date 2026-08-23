@@ -195,6 +195,9 @@
 "Agent" = "助手"
 "Apply" = "套用"
 "Apply the agent's {0} change(s) to the project?" = "要將助手的 {0} 處變更套用到專案嗎？"
+"User Manual" = "使用手冊"
+"The user manual is not bundled with this build." = "此版本未隨附使用手冊。"
+"This manual is not available in the current language yet; showing the {0} edition." = "手冊暫無目前語言版本，顯示的是 {0} 版。"
 
 [Property]
 "Properties" = "屬性"
@@ -333,6 +336,7 @@
 "Recent" = "最近使用"
 "Set Instrument" = "設定樂器"
 "About TuneLab" = "關於 TuneLab"
+"User Manual" = "使用手冊"
 
 [AgentSideBarContentProvider]
 "Agent" = "助手"

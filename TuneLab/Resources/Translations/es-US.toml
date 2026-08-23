@@ -195,6 +195,9 @@
 "Enable or disable this extension. Takes effect after restarting TuneLab." = "Habilitar o deshabilitar esta extensión. Se aplica después de reiniciar TuneLab."
 "Enable or disable this capability. Takes effect after restarting TuneLab." = "Habilitar o deshabilitar esta capacidad. Se aplica después de reiniciar TuneLab."
 "The whole extension is disabled, so its capabilities cannot be turned on individually." = "La extensión completa está deshabilitada, por lo que sus capacidades no se pueden activar individualmente."
+"User Manual" = "Manual de usuario"
+"The user manual is not bundled with this build." = "Esta compilación no incluye el manual de usuario."
+"This manual is not available in the current language yet; showing the {0} edition." = "El manual aún no está disponible en el idioma actual; se muestra la edición {0}."
 
 [Property]
 "Properties" = "Propiedades"
@@ -333,6 +336,7 @@
 "Set Instrument" = "Establecer instrumento"
 "About TuneLab" = "Acerca de TuneLab"
 "Locking Brush" = "Pincel de fijación"
+"User Manual" = "Manual de usuario"
 
 [AgentSideBarContentProvider]
 "Agent" = "Agente"

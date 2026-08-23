@@ -195,6 +195,9 @@
 "Enable or disable this extension. Takes effect after restarting TuneLab." = "Deze extensie in- of uitschakelen. Wordt van kracht na het herstarten van TuneLab."
 "Enable or disable this capability. Takes effect after restarting TuneLab." = "Deze mogelijkheid in- of uitschakelen. Wordt van kracht na het herstarten van TuneLab."
 "The whole extension is disabled, so its capabilities cannot be turned on individually." = "De hele extensie is uitgeschakeld, dus haar mogelijkheden kunnen niet afzonderlijk worden aangezet."
+"User Manual" = "Gebruikershandleiding"
+"The user manual is not bundled with this build." = "Deze build bevat geen gebruikershandleiding."
+"This manual is not available in the current language yet; showing the {0} edition." = "De handleiding is nog niet beschikbaar in de huidige taal; de {0}-editie wordt weergegeven."
 
 [Property]
 "Properties" = "Eigenschappen"
@@ -333,6 +336,7 @@
 "Set Instrument" = "Instrument instellen"
 "About TuneLab" = "Over TuneLab"
 "Locking Brush" = "Vastzetpenseel"
+"User Manual" = "Gebruikershandleiding"
 
 [AgentSideBarContentProvider]
 "Agent" = "Agent"

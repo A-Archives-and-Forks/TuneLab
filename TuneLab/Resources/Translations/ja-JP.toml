@@ -195,6 +195,9 @@
 "Enable or disable this extension. Takes effect after restarting TuneLab." = "この拡張機能を有効／無効にします。TuneLab を再起動すると反映されます。"
 "Enable or disable this capability. Takes effect after restarting TuneLab." = "この機能を有効／無効にします。TuneLab を再起動すると反映されます。"
 "The whole extension is disabled, so its capabilities cannot be turned on individually." = "拡張機能全体が無効になっているため、その機能を個別に有効にはできません。"
+"User Manual" = "ユーザーマニュアル"
+"The user manual is not bundled with this build." = "このビルドにはユーザーマニュアルが同梱されていません。"
+"This manual is not available in the current language yet; showing the {0} edition." = "このマニュアルは現在の言語版がまだないため、{0} 版を表示しています。"
 
 [Property]
 "Properties" = "プロパティ"
@@ -333,6 +336,7 @@
 "Set Instrument" = "インストゥルメントを設定"
 "About TuneLab" = "TuneLabについて"
 "Locking Brush" = "固定ブラシ"
+"User Manual" = "ユーザーマニュアル"
 
 [AgentSideBarContentProvider]
 "Agent" = "エージェント"

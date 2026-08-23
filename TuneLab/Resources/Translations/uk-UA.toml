@@ -195,6 +195,9 @@
 "Enable or disable this extension. Takes effect after restarting TuneLab." = "Увімкнути або вимкнути це розширення. Набуде чинності після перезапуску TuneLab."
 "Enable or disable this capability. Takes effect after restarting TuneLab." = "Увімкнути або вимкнути цю можливість. Набуде чинності після перезапуску TuneLab."
 "The whole extension is disabled, so its capabilities cannot be turned on individually." = "Усе розширення вимкнено, тому його можливості не можна ввімкнути окремо."
+"User Manual" = "Посібник користувача"
+"The user manual is not bundled with this build." = "У цій збірці немає посібника користувача."
+"This manual is not available in the current language yet; showing the {0} edition." = "Посібника поточною мовою ще немає; показано версію {0}."
 
 [Property]
 "Properties" = "Властивості"
@@ -333,6 +336,7 @@
 "Set Instrument" = "Встановити інструмент"
 "About TuneLab" = "Про TuneLab"
 "Locking Brush" = "Пензель фіксації"
+"User Manual" = "Посібник користувача"
 
 [AgentSideBarContentProvider]
 "Agent" = "Агент"

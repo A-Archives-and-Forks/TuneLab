@@ -195,6 +195,9 @@
 "Enable or disable this extension. Takes effect after restarting TuneLab." = "Aktivera eller inaktivera detta tillägg. Börjar gälla efter omstart av TuneLab."
 "Enable or disable this capability. Takes effect after restarting TuneLab." = "Aktivera eller inaktivera denna funktion. Börjar gälla efter omstart av TuneLab."
 "The whole extension is disabled, so its capabilities cannot be turned on individually." = "Hela tillägget är inaktiverat, så dess funktioner kan inte slås på var för sig."
+"User Manual" = "Användarhandbok"
+"The user manual is not bundled with this build." = "Den här versionen innehåller ingen användarhandbok."
+"This manual is not available in the current language yet; showing the {0} edition." = "Handboken finns ännu inte på det aktuella språket; visar {0}-utgåvan."
 
 [Property]
 "Properties" = "Egenskaper"
@@ -333,6 +336,7 @@
 "Set Instrument" = "Välj instrument"
 "About TuneLab" = "Om TuneLab"
 "Locking Brush" = "Låspensel"
+"User Manual" = "Användarhandbok"
 
 [AgentSideBarContentProvider]
 "Agent" = "Agent"

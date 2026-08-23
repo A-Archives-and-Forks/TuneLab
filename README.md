@@ -1,4 +1,4 @@
-# TuneLab
+﻿# TuneLab
 *English | [简体中文](README.zh-CN.md)*
 
 TuneLab is an extensible singing voice synthesis editor.
@@ -13,6 +13,9 @@ Get the latest build from the [Releases page](https://github.com/LiuYunPlayer/Tu
 Both are framework-dependent builds and need the [.NET 8 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/8.0) (x64); a machine without it is pointed to Microsoft's download page on first launch.
 
 The binaries are not code-signed, so Windows may greet the first launch with a SmartScreen notice ("Windows protected your PC"). Choose **More info** -> **Run anyway** to continue.
+## User manual
+A full walkthrough of the editor - every area of the UI, the five editing tools and their mouse gestures, the sidebar, settings, shortcuts, files and extensions - is available in Chinese: [用户手册](docs/user-manual.zh-CN.md). An English translation is not written yet.
+The manual ships with the app: press `F1` (or **Help -> User Manual**) to read the same content in-app, and the built-in AI agent consults it when answering how-to questions.
 ## Extension installation
 Drag a `.tlx` extension package into the editor, or install one from the extensions sidebar.
 ## Extension development

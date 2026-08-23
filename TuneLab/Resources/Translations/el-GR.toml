@@ -195,6 +195,9 @@
 "Enable or disable this extension. Takes effect after restarting TuneLab." = "Ενεργοποιήστε ή απενεργοποιήστε αυτή την επέκταση. Ισχύει μετά την επανεκκίνηση του TuneLab."
 "Enable or disable this capability. Takes effect after restarting TuneLab." = "Ενεργοποιήστε ή απενεργοποιήστε αυτή τη δυνατότητα. Ισχύει μετά την επανεκκίνηση του TuneLab."
 "The whole extension is disabled, so its capabilities cannot be turned on individually." = "Ολόκληρη η επέκταση είναι απενεργοποιημένη, γι' αυτό οι δυνατότητές της δεν μπορούν να ενεργοποιηθούν ξεχωριστά."
+"User Manual" = "Εγχειρίδιο χρήσης"
+"The user manual is not bundled with this build." = "Αυτή η έκδοση δεν περιλαμβάνει το εγχειρίδιο χρήσης."
+"This manual is not available in the current language yet; showing the {0} edition." = "Το εγχειρίδιο δεν είναι ακόμη διαθέσιμο στην τρέχουσα γλώσσα· εμφανίζεται η έκδοση {0}."
 
 [Property]
 "Properties" = "Ιδιότητες"
@@ -333,6 +336,7 @@
 "Set Instrument" = "Επιλογή Οργάνου"
 "About TuneLab" = "Σχετικά με το TuneLab"
 "Locking Brush" = "Πινέλο σταθεροποίησης"
+"User Manual" = "Εγχειρίδιο χρήσης"
 
 [AgentSideBarContentProvider]
 "Agent" = "Agent"

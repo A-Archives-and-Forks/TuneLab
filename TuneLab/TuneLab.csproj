@@ -21,6 +21,10 @@
 		<AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
 			<_Parameter1>TuneLab.Tests</_Parameter1>
 		</AssemblyAttribute>
+		<!-- 文档截图工具（tools/ScreenshotBot）：复用启动初始化与主窗口，故需内部可见。 -->
+		<AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
+			<_Parameter1>TuneLab.ScreenshotBot</_Parameter1>
+		</AssemblyAttribute>
 	</ItemGroup>
 
 	<ItemGroup>
@@ -86,6 +90,14 @@
 	  <None Update="Resources\**\*.*">
 	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 	  </None>
+	</ItemGroup>
+
+	<!-- 用户手册随包发布。唯一真相源就是 docs/ 下那一份（Link 只把它落到输出目录，仓库里不留副本）：
+	     手册里的图片写作 images/manual/*.png，故输出目录按同样的相对结构摆，渲染时 baseDir 取 Resources\Manual。
+	     文件名用文化码（同 Resources\ScriptDoc 范式）：缺当前语言则回退，见 ManualLibrary。 -->
+	<ItemGroup>
+	  <Content Include="..\docs\user-manual.zh-CN.md" Link="Resources\Manual\zh-CN.md" CopyToOutputDirectory="PreserveNewest" />
+	  <Content Include="..\docs\images\manual\*.png" Link="Resources\Manual\images\manual\%(Filename)%(Extension)" CopyToOutputDirectory="PreserveNewest" />
 	</ItemGroup>
 
 	<!-- Legacy 兼容层：主程序对 Compat.Legacy 与冻结 legacy SDK 零编译依赖

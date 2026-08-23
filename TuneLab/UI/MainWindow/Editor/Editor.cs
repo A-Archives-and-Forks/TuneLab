@@ -368,6 +368,9 @@ internal class Editor : DockPanel, PianoWindow.IDependency, TrackWindow.IDepende
         // 域 = view（显示层开关）。参数面板折叠/恢复与拖到最低等价；在 Editor 分发以便钢琴窗/编排区焦点下均可触发。
         Keymap.Register(new() { Id = "view.toggleParameterPanel", DisplayName = () => "Toggle Parameter Panel".Tr(TC.Menu), Scope = KeyScope.Editor, DefaultGesture = new(Key.P, KeyBinding.PrimaryModifier), Execute = () => mPianoWindow.ToggleParameterPanel() });
 
+        // 用户手册（随包发布，见 ManualLibrary）。F1 是「帮助」的通行约定；Global 作用域 = 任何区域按下都开。
+        Keymap.Register(new() { Id = "app.manual", DisplayName = () => "User Manual".Tr(TC.Menu), Scope = KeyScope.Global, DefaultGesture = new(Key.F1), Execute = () => ManualWindow.Open(this.Window()) });
+
         // 显示名沿用工具栏（FunctionBar）既有措辞，复用其翻译、与工具栏保持一致。
         RegisterToolCommand("tool.note", "Note Tool", Key.D1, UI.PianoTool.Note);
         RegisterToolCommand("tool.pitch", "Pitch Pen", Key.D2, UI.PianoTool.Pitch);
@@ -1542,6 +1545,10 @@ internal class Editor : DockPanel, PianoWindow.IDependency, TrackWindow.IDepende
 
         {
             var menuBarItem = new MenuItem { Foreground = Style.TEXT_LIGHT.ToBrush(), Focusable = false }.SetTrName("Help");
+            {
+                var menuItem = new MenuItem().SetTrName("User Manual").SetCommand("app.manual");
+                menuBarItem.Items.Add(menuItem);
+            }
             {
                 var menuItem = new MenuItem().SetTrName("Open TuneLab Folder").SetAction(() => ProcessHelper.OpenUrl(PathManager.TuneLabFolder));
                 menuBarItem.Items.Add(menuItem);

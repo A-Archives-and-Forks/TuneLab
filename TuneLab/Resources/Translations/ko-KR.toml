@@ -195,6 +195,9 @@
 "Enable or disable this extension. Takes effect after restarting TuneLab." = "이 확장을 사용하거나 사용 안 함으로 설정합니다. TuneLab을 재시작한 후에 적용됩니다."
 "Enable or disable this capability. Takes effect after restarting TuneLab." = "이 기능을 사용하거나 사용 안 함으로 설정합니다. TuneLab을 재시작한 후에 적용됩니다."
 "The whole extension is disabled, so its capabilities cannot be turned on individually." = "확장 전체가 사용 안 함 상태이므로 개별 기능을 켤 수 없습니다."
+"User Manual" = "사용자 설명서"
+"The user manual is not bundled with this build." = "이 빌드에는 사용자 설명서가 포함되어 있지 않습니다."
+"This manual is not available in the current language yet; showing the {0} edition." = "현재 언어 버전의 설명서가 아직 없어 {0} 버전을 표시합니다."
 
 [Property]
 "Properties" = "프로퍼티"
@@ -333,6 +336,7 @@
 "Set Instrument" = "악기 설정"
 "About TuneLab" = "TuneLab 정보"
 "Locking Brush" = "고정 브러시"
+"User Manual" = "사용자 설명서"
 
 [AgentSideBarContentProvider]
 "Agent" = "에이전트"

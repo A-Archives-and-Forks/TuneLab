@@ -195,6 +195,9 @@
 "Enable or disable this extension. Takes effect after restarting TuneLab." = "Bu uzantıyı etkinleştirin veya devre dışı bırakın. TuneLab yeniden başlatıldıktan sonra geçerli olur."
 "Enable or disable this capability. Takes effect after restarting TuneLab." = "Bu yeteneği etkinleştirin veya devre dışı bırakın. TuneLab yeniden başlatıldıktan sonra geçerli olur."
 "The whole extension is disabled, so its capabilities cannot be turned on individually." = "Uzantının tamamı devre dışı olduğundan yetenekleri tek tek açılamaz."
+"User Manual" = "Kullanım kılavuzu"
+"The user manual is not bundled with this build." = "Bu derlemede kullanım kılavuzu bulunmuyor."
+"This manual is not available in the current language yet; showing the {0} edition." = "Kılavuzun geçerli dilde sürümü yok; {0} sürümü gösteriliyor."
 
 [Property]
 "Properties" = "Özellikler"
@@ -333,6 +336,7 @@
 "Set Instrument" = "Enstrüman Ayarla"
 "About TuneLab" = "TuneLab Hakkında"
 "Locking Brush" = "Sabitleme fırçası"
+"User Manual" = "Kullanım kılavuzu"
 
 [AgentSideBarContentProvider]
 "Agent" = "Aracı"
