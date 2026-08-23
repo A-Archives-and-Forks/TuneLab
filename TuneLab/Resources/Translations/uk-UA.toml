@@ -167,7 +167,7 @@
 "An extensible singing voice synthesis editor." = "Розширюваний редактор синтезу співочого голосу."
 "Licenses" = "Ліцензії"
 "Downloading update…" = "Завантаження оновлення…"
-"Update failed. Please try again later." = "Помилка оновлення. Будь ласка, спробуйте пізніше."
+"Automatic update failed. Opening the download page…" = "Не вдалося виконати автоматичне оновлення. Відкриваємо сторінку завантаження…"
 "No updates at the moment." = "Оновлень наразі немає."
 "Check update failed" = "Помилка перевірки оновлень"
 "An error occurred while checking for updates. Please check the log for more details." = "Під час перевірки оновлень сталася помилка. Будь ласка, перевірте журнал для отримання додаткової інформації."

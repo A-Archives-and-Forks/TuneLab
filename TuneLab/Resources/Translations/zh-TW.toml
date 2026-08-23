@@ -173,7 +173,7 @@
 "An extensible singing voice synthesis editor." = "一款可擴展的歌聲合成編輯器。"
 "Licenses" = "授權條款"
 "Downloading update…" = "正在下載更新…"
-"Update failed. Please try again later." = "更新失敗。請稍後再試。"
+"Automatic update failed. Opening the download page…" = "自動更新失敗，正在開啟下載頁面…"
 "No updates at the moment." = "暫無新版本。"
 "Check update failed" = "無法檢查更新"
 "An error occurred while checking for updates. Please check the log for more details." = "檢查更新時發生了錯誤，詳細資料請參閱日誌檔案。"

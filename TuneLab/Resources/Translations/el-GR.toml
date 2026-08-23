@@ -167,7 +167,7 @@
 "An extensible singing voice synthesis editor." = "Ένας επεκτάσιμος επεξεργαστής σύνθεσης τραγουδιστικής φωνής."
 "Licenses" = "Άδειες"
 "Downloading update…" = "Λήψη ενημέρωσης…"
-"Update failed. Please try again later." = "Η ενημέρωση απέτυχε. Παρακαλώ δοκιμάστε ξανά αργότερα."
+"Automatic update failed. Opening the download page…" = "Η αυτόματη ενημέρωση απέτυχε. Άνοιγμα της σελίδας λήψης…"
 "No updates at the moment." = "Δεν υπάρχουν ενημερώσεις αυτή τη στιγμή."
 "Check update failed" = "Ο Έλεγχος Ενημέρωσης απέτυχε."
 "An error occurred while checking for updates. Please check the log for more details." = "Παρουσιάστηκε σφάλμα κατά τον έλεγχο για ενημερώσεις.\n Παρακαλώ, ελέγξτε το αρχείο καταγραφής για περισσότερες λεπτομέρειες."

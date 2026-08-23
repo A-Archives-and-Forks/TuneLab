@@ -167,7 +167,7 @@
 "An extensible singing voice synthesis editor." = "拡張可能な歌声合成エディター。"
 "Licenses" = "ライセンス"
 "Downloading update…" = "アップデートをダウンロード中…"
-"Update failed. Please try again later." = "アップデートに失敗しました。後でもう一度お試しください。"
+"Automatic update failed. Opening the download page…" = "自動アップデートに失敗しました。ダウンロードページを開きます…"
 "No updates at the moment." = "現在、アップデートはありません。"
 "Check update failed" = "アップデートの確認に失敗しました"
 "An error occurred while checking for updates. Please check the log for more details." = "アップデートの確認中にエラーが発生しました。詳細はログを確認してください。"

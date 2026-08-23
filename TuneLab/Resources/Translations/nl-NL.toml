@@ -167,7 +167,7 @@
 "An extensible singing voice synthesis editor." = "Een uitbreidbare editor voor zangstemsynthese."
 "Licenses" = "Licenties"
 "Downloading update…" = "Update downloaden…"
-"Update failed. Please try again later." = "Update mislukt. Probeer het later opnieuw."
+"Automatic update failed. Opening the download page…" = "Automatische update mislukt. De downloadpagina wordt geopend…"
 "No updates at the moment." = "Geen updates op dit moment."
 "Check update failed" = "Controle update mislukt"
 "An error occurred while checking for updates. Please check the log for more details." = "Er is een fout opgetreden tijdens het controleren op updates. Controleer het logboek voor meer details."

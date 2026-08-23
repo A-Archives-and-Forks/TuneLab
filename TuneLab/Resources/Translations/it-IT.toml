@@ -167,7 +167,7 @@
 "An extensible singing voice synthesis editor." = "Un editor estensibile per la sintesi vocale del canto."
 "Licenses" = "Licenze"
 "Downloading update…" = "Download aggiornamento…"
-"Update failed. Please try again later." = "Aggiornamento fallito. Riprova più tardi."
+"Automatic update failed. Opening the download page…" = "Aggiornamento automatico fallito. Apertura della pagina di download…"
 "No updates at the moment." = "Nessun aggiornamento disponibile."
 "Check update failed" = "Ricerca di nuovi aggiornamenti fallita"
 "An error occurred while checking for updates. Please check the log for more details." = "Si è verificato un errore durante la ricerca di aggiornamenti. Controlla il log per ulteriori dettagli."

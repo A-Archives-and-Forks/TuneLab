@@ -167,7 +167,7 @@
 "An extensible singing voice synthesis editor." = "Genişletilebilir bir şarkı sesi sentezi düzenleyicisi."
 "Licenses" = "Lisanslar"
 "Downloading update…" = "Güncelleme indiriliyor…"
-"Update failed. Please try again later." = "Güncelleme başarısız. Lütfen daha sonra tekrar deneyin."
+"Automatic update failed. Opening the download page…" = "Otomatik güncelleme başarısız. İndirme sayfası açılıyor…"
 "No updates at the moment." = "Şu anda güncelleme yok."
 "Check update failed" = "Güncelleme kontrolü başarısız oldu"
 "An error occurred while checking for updates. Please check the log for more details." = "Güncellemeleri kontrol ederken bir hata oluştu. Daha fazla detay için lütfen günlüğü kontrol edin."
