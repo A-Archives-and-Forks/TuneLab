@@ -47,11 +47,14 @@ jobs:
             NOTES: ${{ steps.notes.outputs.release-notes }}
           run: |
             python3 -m pip install --quiet markdown-it-py
-            printf '%s' "$NOTES" > notes.md
+            printf '%s\n' "$NOTES" > notes.md
             python3 CIUtils/check-release-notes.py notes.md --fix > notes.safe.md
             {
               echo 'notes<<TUNELAB_NOTES_EOF'
               cat notes.safe.md
+              # 兜底换行：正文末尾若不带换行，分隔符会被拼到最后一行尾巴上，GitHub 报
+              # "Matching delimiter not found"，整个发版就停在建 release 之前。
+              echo ''
               echo 'TUNELAB_NOTES_EOF'
             } >> "$GITHUB_OUTPUT"
 
